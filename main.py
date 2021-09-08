@@ -9,8 +9,13 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
 
+def print_bye(name):
+    print('BYE!', name)
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('...')
+    print_bye('you are a babe')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
